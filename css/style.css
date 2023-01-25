@@ -56,11 +56,11 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 80px;
 }
 
 .display-none {
     display:none;
+    width: 100%;
 }
 
 .first-image {
@@ -123,7 +123,22 @@ h4 span {
     color: red;
 }
 
+.first-image:hover {
+    display: none;
+}
+
+.first-image:hover .display-none {
+    display: block;
+}
+
+
+
 .footerBG {
     background-color: #1a1a1a;
     height: 100px;
+}
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
