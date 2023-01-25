@@ -6,6 +6,7 @@
 
 header {
     position: fixed;
+    z-index: 9;
     width: 100%;
 }
 .headerBG {
@@ -49,10 +50,75 @@ header {
     height: 30px;
 }
 
-.displayheader {
+.display-main {
+    padding-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     height: 80px;
+}
+
+.display-none {
+    display:none;
+}
+
+.first-image {
+    width: 100%;
+}
+
+.main-item {
+    width: calc(100% / 3);
+    position: relative;
+}
+.padding {
+    padding: 10px;
+}
+
+.sales {
+    position:absolute;
+    bottom: 16%;
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+
+.sustainability {
+    position:absolute;
+    bottom: 16%;
+    left: 15%;
+    background-color: green;
+    color: white;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+
+.sustainability2 {
+    position:absolute;
+    bottom: 16%;
+    background-color: green;
+    color: white;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+
+h5  {
+    font-weight: lighter;
+}
+h4 span {
+    color: red;
+    text-decoration: none;
+}
+.favourite {
+    position: absolute;
+    background-color: #e7e7e4;
+    font-size:25px;
+    padding: 5px;
+    top: 30px;
+    right: 10px;
+}
+
+.favourite:hover {
+    color: red;
 }
