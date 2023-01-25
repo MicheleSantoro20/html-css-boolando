@@ -122,3 +122,8 @@ h4 span {
 .favourite:hover {
     color: red;
 }
+
+.footerBG {
+    background-color: #1a1a1a;
+    height: 100px;
+}
