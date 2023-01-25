@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
 header {
     position: fixed;
     z-index: 9;
     width: 100%;
 }
+
 .headerBG {
     background-color: #ff6900;
 }
@@ -64,6 +69,7 @@ header {
 }
 
 .first-image {
+    display: block;
     width: 100%;
 }
 
@@ -123,22 +129,75 @@ h4 span {
     color: red;
 }
 
-.first-image:hover {
+.main-item:hover .first-image {
     display: none;
 }
 
-.first-image:hover .display-none {
+.main-item:hover .display-none {
     display: block;
+    width: 100%;
 }
-
-
 
 .footerBG {
     background-color: #1a1a1a;
     height: 100px;
 }
+
 .footer-display {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+}
+
+.footer-display div ul {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer-display div ul li {
+    list-style: none;
+    color: white;
+}
+
+.primo-footer {
+    color: white;
+}
+
+.primo-footer h3{
+    padding-bottom:10px; 
+}
+
+.primo-footer span{
+    padding-right:10px; 
+}
+
+.primo-footer span a {
+    color: white;
+    text-decoration: none;
+}
+
+.primo-footer span a:hover {
+    color: red;
+}
+
+.secondo-footer h3{
+    padding-bottom:10px; 
+    color: white;
+}
+
+.secondo-footer span{
+    padding-right:10px; 
+}
+
+.secondo-footer span a i{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.secondo-footer span a i:hover {
+    color: red;
 }
